@@ -1,0 +1,44 @@
+body {
+    color: #789acc;
+    background-color: #789acc;
+    font-family: Roboto, sans-serif;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 50px #383838;
+}
+
+section div {
+    width: 250px;
+    height: 250px;
+    display: inline-block;    
+    vertical-align: middle;
+    margin: 0 40px;
+}
+
+div img {
+    width: 60px;
+}
+
+div h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+div p {
+    color: grey;
+}
+
+.price {
+    color: #789acc;
+    font-weight: 500;
+}
+
+span {
+    font-size: 30px;
+}
