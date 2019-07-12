@@ -1,12 +1,73 @@
 body {
     margin: 0;
     background-color: rgb(22,160,133);
-    text-align: center; /* centraliza o conteúdo */
+    text-align: center;
+    font-family: Roboto, sans-serif;
 }
 
 section {
     background-color: white;
-    width: 40%;
+    width: 700px;
+    height: 530px;
+    margin-top: 100px;
     display: inline-block; 
     overflow: hidden;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 1px 1px 25px rgb(59, 59, 59);
+}
+
+.profile-order {
+    padding: 50px 90px 15px 90px;
+}
+
+h2 {
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+
+#profile-icon {
+    float: right;
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 50%;
+}
+
+#status-message {
+    color: rgb(165, 165, 165);
+}
+
+.order-details {
+    padding: 0 90px;
+}
+
+.item {
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+    color: rgb(83, 83, 83);
+    font-size: 18px;
+    margin: 20px 0 0 0;;
+}
+
+.price {
+    width: 15%;
+    height: 30px;
+    float: right;
+    margin: 20px 0 0 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.total {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+#bg-image {
+    padding: 0;
+    position: relative;
+    bottom: 100px;
 }
