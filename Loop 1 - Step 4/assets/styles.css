@@ -8,10 +8,10 @@ html {
 
 .chat {
     background-color: white;
-    width: 400px;
+    width: 420px;
     height: 450px;
     display: inline-block;
-    text-align: justify;
+    text-align: left;
 }
 
 .chat-tab {
@@ -47,10 +47,10 @@ html {
 }
 
 .user-message {
-    border: 1px solid red;
-    width: 250px;
+    width: auto;
+    display: inline-block;
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
 }
 
@@ -58,5 +58,12 @@ html {
     font-size: 13px;
     font-weight: 500;
     color: rgb(175, 175, 175);
-    margin-top: 0;
+    margin: 0;
+}
+
+.message {
+    padding: 15px;
+    margin: 0;
+    font-weight: 500;
+    background-color: #e6edf6;
 }
