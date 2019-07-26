@@ -7,26 +7,60 @@
   <title>Loop 1 - Step 5</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Prompt:900" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-  <header>
-    <!-- aqui entra a logo -->
-  </header>
-
-  <!--Utilizar flexbox à partir desse projeto-->
-  <section class="grid-container">
-    <div class="heading">
-
+  <div class="flight-card">
+    <div class="logo">
+      <!-- aqui entra a logo -->
+      <h1>Fra</h1><span></span><h1>Ams</h1>
+      <h4>Frankfurt</h4><h4>Amsterdam</h4>
     </div>
 
-    <div class="info">
+    <!--Utilizar flexbox e grid à partir desse projeto-->
+    <section class="grid-container">
+      <div class="flight-info">
+        <div class="item">
+          <h4>Flight</h4>
+          <p>815</p>
+        </div>
 
-    </div>
+        <div class="item">
+          <h4>Gate</h4>
+          <p>23G</p>
+        </div>
 
-    <div class="qr-code">
+        <div class="item">
+          <h4>Seat</h4>
+          <p>10F</p>
+        </div>
+      </div>
 
-    </div>
-  </section>
+      <div class="passenger-info">
+        <div class="data">
+          <div class="item">
+            <h4>Passenger</h4>
+            <p>Robert de Niro</p>
+          </div>
+
+          <div class="item">
+            <h4>Class</h4>
+            <p>Business</p>
+          </div>
+
+          <div class="item">
+            <h4>Departure</h4>
+            <p>3:45am, Dec 15</p>
+          </div>
+        </div>
+
+        <!--QR Code-->
+        <div>
+          <img src="./img/qr.svg" />
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
