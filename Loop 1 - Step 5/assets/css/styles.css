@@ -9,7 +9,74 @@ html {
     width: 350px;
     height: 380px;
     background-color: white;
-    padding: 30px 20px;
+    padding: 40px 40px;
     display: inline-block;
     margin-top: 10%;
+}
+
+.logo
+{
+    display: grid;
+    grid-template-columns: 125px 100px 125px;
+    grid-template-rows: 70px 20px;
+}
+
+.logo h1
+{
+    color: rgb(38, 143, 230);
+    font-family: 'Prompt';
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 50px;
+
+   /* display: inline; */
+}
+
+/* Separador da logo */
+.logo span
+{
+    width: 25px;
+    height: 5px;
+    /* display: inline-block;*/ 
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+
+    background-color: rgb(209, 218, 238);
+}
+
+.logo h4
+{
+    color: rgb(173, 173, 173);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    /* display: inline-block; */
+    
+}
+
+
+.item-left
+{
+    /*
+    position: relative;
+    left: 0;
+    */
+
+    align-self: start;
+}
+
+.item-right
+{
+    /*
+    position: relative;
+    right: ;
+    */
+
+    align-self: end;
+}
+
+.item-left
+{
+    color: black;
 }
