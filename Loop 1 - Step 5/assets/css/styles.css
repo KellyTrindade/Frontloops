@@ -63,7 +63,7 @@ html {
     left: 0;
     */
 
-    align-self: start;
+    text-align: left;
 }
 
 .item-right
@@ -73,7 +73,7 @@ html {
     right: ;
     */
 
-    align-self: end;
+    text-align: right;
 }
 
 .item-left
