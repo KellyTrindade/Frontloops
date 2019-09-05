@@ -4,6 +4,13 @@ html {
     text-align: center;
 }
 
+h4
+{
+    font-family: Roboto;
+    color: rgb(185, 185, 185);
+    text-transform: uppercase;
+}
+
 .flight-card
 {
     width: 350px;
@@ -14,69 +21,24 @@ html {
     margin-top: 10%;
 }
 
-.logo
+.logo 
 {
-    display: grid;
-    grid-template-columns: 125px 100px 125px;
-    grid-template-rows: 70px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo h1
+.logo div h1 
 {
-    color: rgb(38, 143, 230);
-    font-family: 'Prompt';
-    font-weight: 900;
+    font-family: Prompt;
+    font-size: 42px;
     text-transform: uppercase;
-    font-size: 50px;
-
-   /* display: inline; */
+    color: rgb(73, 164, 250);
 }
 
-/* Separador da logo */
-.logo span
+.logo span 
 {
-    width: 25px;
-    height: 5px;
-    /* display: inline-block;*/ 
-    justify-self: center;
-    align-self: center;
-    margin-top: 10px;
-
-    background-color: rgb(209, 218, 238);
-}
-
-.logo h4
-{
-    color: rgb(173, 173, 173);
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-    /* display: inline-block; */
-    
-}
-
-
-.item-left
-{
-    /*
-    position: relative;
-    left: 0;
-    */
-
-    text-align: left;
-}
-
-.item-right
-{
-    /*
-    position: relative;
-    right: ;
-    */
-
-    text-align: right;
-}
-
-.item-left
-{
-    color: black;
+    width: 34px;
+    height: 6px;
+    background-color: rgb(198, 216, 251);
 }
