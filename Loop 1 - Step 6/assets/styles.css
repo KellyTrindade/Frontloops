@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+}
+
+/* card */
+#card {
+    width: 60%;
+}
+
+/* botões */
+.btn-social-media {
+    width: 70%;
+}
+
+.btn-social-media p {
+    display: inline-block;
+    margin: 0;
+}
+
+/* icones */
+.icon {
+    height: 20px;
+}
+
+/* imagem */
+#img-side {
+    width: 40%;
+}
+
+/* rodapé */
+footer p {
+    display: inline-block;
+}
